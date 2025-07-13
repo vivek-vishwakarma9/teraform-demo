@@ -1,7 +1,7 @@
 
-module "rg1"{
-module "modrg"{
+module "rg_mod"{
+
     source = "../child_modules/azurerm_resource_group"
-    rg_name = "anjali_rg1"
-    location = "East US"
+    resource_group_name = "employment"
+     resource_group_location = "East US"
 }
